@@ -1,0 +1,28 @@
+.card {
+    width: 350px;
+    height: 450px;
+    background-color: paleturquoise;
+    border-radius: 1em;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    box-shadow: 1px 1px 0.5em rgba(0, 0, 0, 0.612);
+    margin: 2.5% 2.5%;
+}
+
+.card > img {
+    width: 260px;
+    justify-self: center;
+    align-self: flex-start;
+}
+
+.card > .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text > p {
+    margin-top: 0;
+    font-size: large;
+}
